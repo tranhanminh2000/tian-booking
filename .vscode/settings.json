@@ -1,0 +1,28 @@
+{
+    "files.exclude": {
+      "**/__pycache__": true,
+      "**/.git": false
+    }
+  ,
+  "editor.lineHeight": 1.8,
+  "editor.wordWrap": "off",
+  "editor.cursorStyle": "line",
+  "editor.cursorWidth": 4,
+  "editor.cursorBlinking": "solid",
+  "editor.rulers": [
+    120
+  ],
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Cobalt2",
+  "workbench.colorCustomizations": {
+    "editorRuler.foreground": "#ffb42888"
+  },
+  "workbench.editor.enablePreview": false,
+  "editor.renderWhitespace": "all",
+  "files.trimTrailingWhitespace": true,
+  /* Paths for vscode reference without create __init__*/
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.extraPaths": [
+    "/Users/minhtran/workspace/projects/AusBooking/backend"
+  ],
+}
