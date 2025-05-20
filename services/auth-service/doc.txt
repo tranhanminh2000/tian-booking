@@ -1,0 +1,2 @@
+(Client) --> (FastAPI router) --> (Controller function, dtos, presenters) --> (Use Case) --> (Entity, Repository)
+                Framework                       I Adapter                       Biz                 domain

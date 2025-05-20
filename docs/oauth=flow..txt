@@ -1,0 +1,5 @@
+User's Browser:
+FE (app) → BE (/oauth/login/google) → Google login page
+Google login → redirect → BE (/oauth/callback/google?code=xxx)
+BE xử lý → redirect → FE (/login-success?token=xxx)
+FE tiếp tục sử dụng token

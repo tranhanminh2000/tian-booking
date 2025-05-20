@@ -1,0 +1,14 @@
+class ValidationError(Exception): pass
+class AuthenticationError(Exception): pass
+class AuthorizationError(Exception): pass
+class NotFoundError(Exception): pass
+class DatabaseError(Exception): pass
+class TimeoutError(Exception): pass
+class ConflictError(Exception): pass
+class SerializationError(Exception): pass
+class FileIOException(Exception): pass
+class ConfigurationError(Exception): pass
+class DependencyResolutionError(Exception): pass
+class RateLimitExceededError(Exception): pass
+class SessionExpiredError(Exception): pass
+class ExternalSystemError(Exception): pass
